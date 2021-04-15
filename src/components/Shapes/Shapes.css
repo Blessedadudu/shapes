@@ -1,0 +1,51 @@
+.shapes {
+    color: teal;
+    border: 2px solid rgb(199, 194, 194);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-gap: 1rem;
+    background-color: rgb(189, 189, 189);
+}
+
+.shapes .box {
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.shapes .circle {
+    background-color: rgb(13, 240, 32);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.shapes .cylinder {
+    background-color: #770df0;
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.shapes .triangle{
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid rgb(145, 129, 11);
+}
+
+.shapes button {
+    background-color: rgb(255, 0, 0);
+    border: none;
+    color: white;
+    height: 44px;
+    width: 80px;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
